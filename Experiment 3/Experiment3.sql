@@ -31,17 +31,12 @@ WHERE e.dept = t.dept
 Select * from employee
 ORDER BY dept;
 
---- Part A END
 
 
 
 
---- Part B Start
--- A company maintains records of products sold by different salespersons. The management wants to prepare a sales 
--- performance report by identifying the salesperson(s) who generated the highest overall sales revenue. 
--- If multiple salespersons have the same highest total sales amount, all of them must be included in the final report. 
--- Return the seller ID(s) satisfying this condition.
 
+--- Part B 
 
 CREATE TABLE SalesPerson
 (
@@ -114,10 +109,10 @@ group by seller_id
 ) t 
 ) 
 
--- PART B END
 
 
--- PART C START
+
+-- PART C
 CREATE TABLE Department
 (
     id INT PRIMARY KEY,
