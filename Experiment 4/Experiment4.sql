@@ -31,7 +31,6 @@ FROM (
 	ORDER BY ranks, rankings
 )
 
--- END (i)
 
 --- PART A (ii)
 Select rankings, country
@@ -46,7 +45,6 @@ FROM (
 	FROM tbl_happiness 
 	ORDER BY ranks ASC, rankings DESC
 )
--- END (ii)
 
 
 -- PART B
